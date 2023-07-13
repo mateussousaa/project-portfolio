@@ -9,6 +9,8 @@ const Container = styled.div`
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
   overflow-y: auto;
+  background: linear-gradient(to right, #0f0c29, #042d52, #080236);
+  color: white;
   scrollbar-width: none;
   &::-webkit-scrollbar {
     display: none;
@@ -18,7 +20,7 @@ const Container = styled.div`
 function App() {
   return (
   <Container>
-    <Hero />
+    <Hero/>
     <IntroduceMe />
     <Works />
     <Contact />
