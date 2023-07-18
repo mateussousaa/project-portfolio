@@ -88,6 +88,10 @@ const Right = styled.div`
     flex: 1;
     order: 0;
   }
+
+  @media (max-height: 768px){
+    display: none;
+  }
 `
 
 const HeroImg = styled.img`

@@ -48,10 +48,6 @@ const Icons = styled.div`
   gap: 20px;
 `
 
-const Icon = styled.img`
-  width: 20px;
-  cursor: pointer;
-`
 const Button = styled.button`
   width: 100px;
   padding: 10px;
@@ -86,7 +82,6 @@ export const Navbar = () => {
           </List>
         </Links>
         <Icons>
-          <Icon src="./img/search.png"/>
           <Button onClick={onClick}>Contrate me</Button>
         </Icons>
       </Container>
