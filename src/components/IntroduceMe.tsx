@@ -22,6 +22,10 @@ const Title = styled.h1`
   font-size: 74px;
 
   @media (max-width: 768px) {
+    font-size: 36px;
+  }
+
+  @media (max-width: 576px) {
     font-size: 24px;
   }
 `
@@ -31,6 +35,10 @@ const Text = styled.p`
   text-indent: 16px;
 
   @media (max-width: 768px) {
+    font-size: 20px;
+  }
+
+  @media (max-width: 576px) {
     font-size: 16px;
   }
 `
